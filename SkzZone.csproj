@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>SkzZone</RootNamespace>
+    <AssemblyName>SkzZone</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Sabit, kararlı sürüme pinlendi. "*" kullanırsak paketin 2.0.0-alpha
+         (deneysel/kararsız) sürümünü çekip API'yi kırıyordu. -->
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.356" />
+  </ItemGroup>
+
+</Project>
